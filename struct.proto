@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package main;
+
+message Track {
+  int32 x=1;
+  int32 y=2;
+  bytes xTrack=3;
+  bytes yTrack=4;
+}
